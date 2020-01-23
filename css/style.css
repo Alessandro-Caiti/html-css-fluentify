@@ -8,7 +8,7 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -161,7 +161,7 @@ h1 {
 .frame {
     width: 33.33%;
     float: left;
-    padding: 15px 5px;
+    padding: 10px 10px;
     text-align: center;
 }
 
@@ -183,13 +183,12 @@ h2 {
 
 .frame hr {
     width: 32px;
-    margin: 5px auto;
+    margin: 10px auto;
     color: #999;
 }
 
 .frame p {
     font-size: 15px;
     line-height: 25px;
-    padding: 0 15px;
     color: #999;
 }
